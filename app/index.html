@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+</head>
+<body>
+    <form method="post" action="/uploads" enctype="multipart/form-data">
+        <label style="font-size: 2.5em;" > Select or Drop down the file</label> <br> <br>
+        <input style="font-style: italic; font-size: 1.1em;" id="file-input" type="file" name="uploadfile" multiple /> <br> <br>
+        <input type="submit" id = "submit-button" value="Submit Upload">
+    </form>
+</body>
+    <script src = "script.js" ></script>
+</html>
